@@ -64,8 +64,9 @@ affichez dans la console : l'article vaut 50 euros TTC. prix *1.2 */
 
 prix = prompt ("Combien vaut cet article ?")
 console.error(typeof(prix))
-console.error("L'artcle vaut 45 euros")
+console.error("L'artcle vaut" + prix + "euros")
 ttc=parseInt(prix)*1.2
 console.error("l'article vaut" + ttc + "euros TTC")
 
 
+ 
